@@ -1,0 +1,61 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+/* Components */
+/* @import url("components/name_of_component.css"); */
+
+
+body {
+  margin: 0;
+  background-color: rgb(243, 243, 243);
+  margin-bottom: 100px;
+  font-family: 'Raleway', sans-serif;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+.alert
+{
+  padding: 15px 25px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin: 15px;
+  font-size: 20px;
+  color: rgb(109, 109, 109);
+  width: 400px;
+  height: 50px;
+  justify-content: space-between;
+}
+
+.alert i
+{
+  font-size: 15px;
+  color: rgb(109, 109, 109);
+}
+
+.alert.alert-positive
+{
+  border: 2px solid #1EDD88;
+}
+
+.alert.alert-negative
+{
+  border: 2px solid #FD1015;
+}
+
+.alert.alert-neutral
+{
+  border: 2px solid #0466c8;
+}
